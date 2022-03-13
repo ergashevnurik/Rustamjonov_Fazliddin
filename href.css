@@ -1,0 +1,150 @@
+ul  {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1174px;
+  padding: 25px;
+  margin: auto;
+}
+li a{
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+
+}
+.img{
+    margin-right: auto;
+}
+.parent{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.child0 img{
+  margin-top: 50px;
+}
+.child{
+  margin:20px;
+}
+.SignIn{
+  padding: 10px;
+  border-radius: 15px;
+  border:1px solid #38b000;
+  margin-left: 250px;
+  background-color: #38b000;
+}
+.child0{
+  border:1px solid #38b000;
+  padding: 20px;
+}
+
+.parent9{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h9{
+  
+  text-decoration: none;
+  background-color: #38b000;
+  padding: 12px;
+  border:1px solid #38b000;
+}
+.Team{
+  text-decoration: none;
+  color: #38b000;
+}
+.Html{
+  color: red;
+  
+}
+.css{
+}
+.parent90{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+.src{
+  width: 724px;
+}
+.Our{
+  color: red;
+}
+.Help{
+}
+.parentt{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.ABOUT{
+}
+.ABOUT:hover{
+  color:red; 
+}
+.file:hover{
+   border:1px solid red;
+   background-color: red;
+   color: black;
+}
+li:first-child{
+  margin-right: auto;
+}
+.png{
+  width: 100px;
+}
+.In{
+  color: black;
+  padding: 15px;
+  border-radius: 15px;
+}
+.childd{
+  margin-top: 150px;
+}
+.p{
+  color:red; 
+}
+html {
+  scroll-behavior: smooth;
+}
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%
+}
+
+#about img {
+  width: 250px;
+}
+
+section {
+  margin-top: 50px; 
+}
+
+#about .child {
+  width: calc(100% / 3)
+}
+
+.child {
+  width: 100%;
+}
+p {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  ul, .child {
+    width: 100%!important
+  }
+#about .child {
+    padding: 25px;
+    width: calc(100% / 3);
+}
