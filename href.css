@@ -7,6 +7,7 @@ ul  {
   width: 1174px;
   padding: 25px;
   margin: auto;
+  
 }
 li a{
   color: black;
@@ -20,6 +21,7 @@ li a{
 .parent{
   display: flex;
   align-items: center;
+  
   text-align: center;
   justify-content: center;
 }
@@ -44,6 +46,7 @@ li a{
 .parent9{
   display: flex;
   align-items: center;
+  
   justify-content: center;
 }
 
@@ -68,6 +71,7 @@ li a{
    justify-content: center;
    align-items: center;
    display: flex;
+   
 }
 .src{
   width: 724px;
@@ -141,9 +145,13 @@ p {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
-  ul, .child {
-    width: 100%!important
+  ul, .child, .src, .parent90, .parentt, .parent, .parent9 {
+    flex-wrap: wrap;
   }
+  ul, .src, .child {
+        width: 100%!important;
+  }
+}
 #about .child {
     padding: 25px;
     width: calc(100% / 3);

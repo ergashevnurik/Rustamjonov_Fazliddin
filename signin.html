@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+    input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+section  {
+margin-left: 500px;  
+margin-top: 150px;
+}
+.input{
+  background-color: #38b000;
+}
+  </style>
+  <meta charset="utf-8">
+</head>
+<body>
+  <section>
+    <label>Ведите свою имю</label>
+    <input type="name" name="" placeholder="Name">
+<br>
+  <label>Ведите Фамилию</label>
+<input type="Surname" name="" placeholder="Surname">
+<br>
+<label>Ведите email</label>
+<input type="email" name="" placeholder="Email">
+<br>
+<label>Ведите пароль</label>
+<input type="password" name="" placeholder="Password">
+<br>
+<label>Ведите дату рождения</label>
+<input type="date" name="" placeholder="Дата рождения">
+<br>
+<input class="input" type="submit" value="Подтвердить" id="btn">
+  </section>
+
+<script type="text/javascript">
+  var btn = document.getElementById('btn');
+  btn.onclick = function() {
+    alert("Спасибо за заявку")
+  }
+</script>
+
+</body>
+</html>
